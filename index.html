@@ -2,89 +2,136 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>Bot Center - مكتبة البوتات</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(to bottom, #e0f7ff, #ffffff);
-            margin: 0;
-            padding: 0;
-            direction: rtl;
-        }
-        header {
-            background-color: #00aaff;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-size: 28px;
-            font-weight: bold;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        .bot-card {
-            background-color: #f9f9f9;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            padding: 20px;
-            margin-bottom: 30px;
-            overflow: hidden;
-        }
-        .bot-card img {
-            width: 100%;
-            border-radius: 10px;
-        }
-        .bot-details {
-            margin-top: 15px;
-        }
-        .bot-details h2 {
-            color: #0077aa;
-            margin-bottom: 10px;
-        }
-        .bot-details p {
-            font-size: 16px;
-            margin: 6px 0;
-        }
-        .contact {
-            margin-top: 20px;
-            font-size: 16px;
-        }
-        .contact a {
-            color: #006699;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>مكتبة البوتات - BotCenter</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background-color: #e6f3ff;
+      color: #00334d;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .bot-card {
+      background: #ffffff;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+    }
+    .bot-image {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h2 {
+      margin: 15px 0 10px;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    section#compare {
+      padding: 40px 20px;
+      background-color: #f0f8ff;
+    }
+    section#compare h2 {
+      text-align: center;
+      color: #007acc;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      font-family: Arial;
+      margin-top: 30px;
+    }
+    th, td {
+      padding: 12px;
+    }
+    thead {
+      background-color: #007acc;
+      color: white;
+    }
+    tbody {
+      background-color: white;
+      color: #333;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #eef8ff;
+    }
+    section#free-trial {
+      background-color:#e6ffe6;
+      padding:30px 20px;
+      margin-top:40px;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+    section#free-trial a {
+      color:#0077cc;
+      font-weight:bold;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <h1>📚 مكتبة البوتات</h1>
 
-<header>📦 مركز البوتات - BotCenter</header>
-
-<div class="container">
     <div class="bot-card">
-        <img src="bot-tiger.jpg" alt="صورة بوت النمر">
-        <div class="bot-details">
-            <h2>🤖 بوت النمر - FOREX</h2>
-            <p>✅ دخول قوي جداً – نسبة نجاح 90%</p>
-            <p>💰 متوسط أرباح يومية: 25$</p>
-            <p>⚙️ روبوت متطور ذكي بالدخول</p>
-            <p>💵 سعر البوت: 140$</p>
-            <p>💳 طرق الدفع: زين كاش، ماستر كارد</p>
-        </div>
-        <div class="contact">
-            📩 للتواصل: <a href="https://t.me/ASEEL7018" target="_blank">@ASEEL7018</a>
-        </div>
+      <img src="F7A57630-4D7C-4E62-A296-CA80CF1C2E8F.jpeg" alt="بوت النمر" class="bot-image">
+      <h2>🤖 بوت النمر - أقوى بوت تداول</h2>
+      <p>🔥 دخول قوي جداً – نسبة نجاح 90%</p>
+      <p>💰 متوسط أرباح يومية: 25$</p>
+      <p>🧠 روبوت متطور ذكي بالدخول</p>
+      <p>💵 سعر البوت: 140$</p>
+      <p>💳 الدفع: زين كاش + ماستر كارد</p>
+      <p>📩 للتواصل: <a href="https://t.me/ASEEL7018" target="_blank">@ASEEL7018</a></p>
     </div>
 
-    <!-- بوتات قادمة -->
-    <div class="bot-card">
-        <h2>🚧 بوت جديد قريبًا</h2>
-        <p>تابعنا للمزيد من البوتات قريبًا...</p>
-    </div>
-</div>
+    <section id="compare">
+      <h2>مقارنة بين البوتات</h2>
+      <div style="overflow-x:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th>اسم البوت</th>
+              <th>نسبة النجاح</th>
+              <th>التقييم</th>
+              <th>متوسط الأرباح اليومية</th>
+              <th>السعر</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>بوت النمر</td>
+              <td>90%</td>
+              <td>متوسط</td>
+              <td>25$ يومياً</td>
+              <td>140$</td>
+            </tr>
+            <tr>
+              <td>بوت الذئب</td>
+              <td>95%</td>
+              <td>جيد</td>
+              <td>35$ يومياً</td>
+              <td>200$</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
+    <section id="free-trial">
+      <h2>🎁 جرب بوت النمر مجانًا!</h2>
+      <p>احصل على النسخة التجريبية لمدة <strong>24 ساعة</strong> واكتشف قوة أداء البوت.</p>
+      <p>💾 <a href="BOT-NIMR-TRIAL.ex5">تحميل النسخة التجريبية</a></p>
+      <p>📩 لمزيد من التفاصيل: <a href="https://t.me/ASEEL7018" target="_blank">@ASEEL7018</a></p>
+    </section>
+
+  </div>
 </body>
 </html>
